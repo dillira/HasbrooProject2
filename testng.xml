@@ -1,0 +1,14 @@
+<suite name="Hasbro Suite">
+<listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<suite-files>
+<suite-file path="./ci2018.xml"/>
+<suite-file path="./workflow.xml"/>
+<suite-file path="./views.xml"/>
+<suite-file path="./cascading.xml"/>
+<suite-file path="./Security.xml"/>
+
+</suite-files>
+</suite>

@@ -1,0 +1,213 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Security">
+    <listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<test name="Specifications">
+<classes>
+<class name="com.hasbro.security.Specifications">
+</class></classes>
+</test>
+
+
+<test name="Season">
+<classes>
+<class name="com.hasbro.security.Season">
+</class></classes>
+</test>
+
+<test name="Country">
+<classes>
+<class name="com.hasbro.security.Country">
+</class></classes>
+</test>
+
+<test name="SourcingConfig">
+<classes>
+<class name="com.hasbro.security.SourcingConfig">
+</class></classes>
+</test>
+
+<test name="BOMMaterialMainUser">
+<classes>
+<class name="com.hasbro.security.BOMMaterialMainUser">
+</class></classes>
+</test>
+
+<test name="ExternalBOM">
+<classes>
+<class name="com.hasbro.security.ExternalBOM">
+</class></classes>
+</test>
+
+<test name="MaterialBOM">
+<classes>
+<class name="com.hasbro.security.MaterialBOM">
+</class>
+</classes>
+</test>
+
+<test name="BOMExternalMainUser">
+<classes>
+<class name="com.hasbro.security.BOMExternalMainUser">
+</class></classes>
+</test>
+
+<test name="Product">
+<classes>
+<class name="com.hasbro.security.Product">
+</class></classes>
+</test>
+
+
+<test name="CostsheetExternalRetail">
+<classes>
+<class name="com.hasbro.security.CostsheetExternalRetail">
+</class>
+</classes>
+</test>
+
+
+<test name="CSInternalRetailToolingMainUser">
+<classes>
+<class name="com.hasbro.security.CSInternalRetailToolingMainUser">
+</class>
+</classes>
+</test>
+
+<test name="CostsheetTooling">
+<classes>
+<class name="com.hasbro.security.CostsheetTooling">
+</class>
+</classes>
+</test>
+
+<test name="CostsheetInternal">
+<classes>
+<class name="com.hasbro.security.CostsheetInternal">
+</class>
+</classes>
+</test>
+
+<test name="CSVendorRetailMainUser">
+<classes>
+<class name="com.hasbro.security.CSVendorRetailMainUser">
+</class>
+</classes>
+</test>
+
+<test name="BOMInternalMainUser">
+<classes>
+<class name="com.hasbro.security.BOMInternalMainUser">
+</class>
+</classes>
+</test>
+
+<test name="CSInternalRetailMainUser">
+<classes>
+<class name="com.hasbro.security.CSInternalRetailMainUser">
+</class>
+</classes>
+</test>
+
+<test name="CSInternalProdMainUser">
+<classes>
+<class name="com.hasbro.security.CSInternalProdMainUser">
+</class>
+</classes>
+</test>
+
+<test name="CostsheetExternalProduct">
+<classes>
+<class name="com.hasbro.security.CostsheetExternalProduct">
+</class>
+</classes>
+</test>
+
+
+
+<test name="CSVendorRetailToolingMainUser">
+<classes>
+<class name="com.hasbro.security.CSVendorRetailToolingMainUser">
+</class>
+</classes>
+</test>
+
+<test name="CSVendorProductMainUser">
+<classes>
+<class name="com.hasbro.security.CSVendorProductMainUser">
+</class>
+</classes>
+</test>
+
+
+<test name="Color">
+<classes>
+<class name="com.hasbro.security.Color">
+</class></classes>
+</test>
+
+<test name="InternalBOMSoftG">
+<classes>
+<class name="com.hasbro.security.InternalBOMSoftG">
+</class></classes>
+</test>
+
+<test name="RetailDocument">
+	<classes>
+		<class name="com.hasbro.security.RetailDocument">
+		</class>
+	</classes>
+</test>
+
+<test name="Colorway">
+<classes>
+<class name="com.hasbro.security.Colorway">
+</class></classes>
+</test>
+
+<test name="Packaging">
+	<classes>
+		<class name="com.hasbro.security.Packaging">
+		</class>
+	</classes>
+</test>
+
+<test name="ChangeActivity">
+<classes>
+<class name="com.hasbro.security.ChangeActivity">
+</class></classes>
+</test>
+
+
+
+<test name="Supplier">
+<classes>
+<class name="com.hasbro.security.Supplier">
+</class></classes>
+</test>
+
+
+
+<test name="PlaceHolderDevPlan">
+<classes>
+<class name="com.hasbro.security.PlaceHolderDevPlan">
+</class></classes>
+</test>
+
+
+
+<test name="Sample">
+<classes>
+<class name="com.hasbro.security.Sample">
+</class></classes>
+</test>
+
+<test name="GlobalLinePlan">
+<classes>
+<class name="com.hasbro.security.GlobalLinePlan">
+</class></classes>
+</test>
+
+</suite>

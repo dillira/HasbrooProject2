@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shop Suite]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="AddProductTest(failed)">
+    <classes>
+      <class name="shopSuite.CheckProductDisplay">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- shopSuite.CheckProductDisplay -->
+      <class name="shopSuite.AddProductTest">
+        <methods>
+          <include name="testcaseA1" invocation-numbers="1 2 3 4 5"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- shopSuite.AddProductTest -->
+    </classes>
+  </test> <!-- AddProductTest(failed) -->
+  <test name="CheckProductDisplay(failed)">
+    <classes>
+      <class name="shopSuite.CheckProductDisplay">
+        <methods>
+          <include name="testcaseA2"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- shopSuite.CheckProductDisplay -->
+      <class name="shopSuite.AddProductTest">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- shopSuite.AddProductTest -->
+    </classes>
+  </test> <!-- CheckProductDisplay(failed) -->
+</suite> <!-- Failed suite [Shop Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PM]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="PMFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.PM.PMFunctional">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcStructureManagementFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.PM.PMFunctional -->
+    </classes>
+  </test> <!-- PMFunctional(failed) -->
+</suite> <!-- Failed suite [PM] -->

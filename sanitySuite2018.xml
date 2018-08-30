@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke">
+<listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<test name="SanitySuite2018">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite2018">
+</class></classes>
+</test>
+
+<test name="SanitySuite1">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite1">
+</class></classes>
+</test>
+
+<test name="SanitySuite3">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite3">
+</class></classes>
+</test>
+
+<test name="SanitySuite2">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite2">
+</class></classes>               
+</test>
+
+<test name="SanitySuite_AssortmentRetail">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+</class></classes>               
+</test>
+
+<test name="SanitySuiteUpdateProductName">
+<classes>
+<class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+</class></classes>               
+</test>
+<test name="SanitySuite5_WorkFlow">
+<classes>
+<class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+</class></classes>               
+</test>
+</suite>
+

@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">SanitySuite2018</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">SanitySuite1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">SanitySuite3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">SanitySuite2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">SanitySuite_AssortmentRetail</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">SanitySuiteUpdateProductName</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">SanitySuite5_WorkFlow</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">4.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">5.0 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">SanitySuite2018 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite2018</td><td><a href="#m1"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701049</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite2018 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuite2018</td><td><a href="#m2"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541700988</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701072</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite1</td><td><a href="#m4"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701257</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite1 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuite1</td><td><a href="#m5"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541701236</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701265</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite3 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite3</td><td><a href="#m7"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701275</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite3 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuite3</td><td><a href="#m8"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541701274</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701276</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite2 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite2</td><td><a href="#m10"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701290</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite2 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuite2</td><td><a href="#m11"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541701287</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m12"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701290</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite_AssortmentRetail &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite_AssortmentRetail</td><td><a href="#m13"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701309</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite_AssortmentRetail &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuite_AssortmentRetail</td><td><a href="#m14"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541701300</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m15"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701309</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuiteUpdateProductName &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuiteUpdateProductName</td><td><a href="#m16"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701319</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuiteUpdateProductName &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.hasbro.sanity.SanitySuiteUpdateProductName</td><td><a href="#m17"><b>checkTestcaseSkip</b>  </a></td><td class="numi">1</td><td>1535541701317</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m18"><b>reportTestcaseResult</b>  </a></td><td class="numi">1</td><td>1535541701319</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SanitySuite5_WorkFlow &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hasbro.sanity.SanitySuite5_WorkFlow</td><td><a href="#m19"><b>tcSCFunctional</b>  </a></td><td class="numi">1</td><td>1535541701338</td><td class="numi">0</td></tr>
+</table>
+<h1>SanitySuite2018</h1>
+<h2 id="m1">com.hasbro.sanity.SanitySuite2018:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite2018.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.hasbro.sanity.SanitySuite2018:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuite2018 as runmode is set to no</p>
+com.hasbro.sanity.SanitySuite2018.checkTestcaseSkip(SanitySuite2018.java:400)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.hasbro.sanity.SanitySuite2018:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuite1</h1>
+<h2 id="m4">com.hasbro.sanity.SanitySuite1:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite1.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.hasbro.sanity.SanitySuite1:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuite1 as runmode is set to no</p>
+com.hasbro.sanity.SanitySuite1.checkTestcaseSkip(SanitySuite1.java:17967)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.hasbro.sanity.SanitySuite1:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuite3</h1>
+<h2 id="m7">com.hasbro.sanity.SanitySuite3:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite3.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.hasbro.sanity.SanitySuite3:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuite3 as runmode is set to no</p>
+com.hasbro.sanity.SanitySuite3.checkTestcaseSkip(SanitySuite3.java:3787)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.hasbro.sanity.SanitySuite3:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuite2</h1>
+<h2 id="m10">com.hasbro.sanity.SanitySuite2:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite2.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.hasbro.sanity.SanitySuite2:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuite2 as runmode is set to no</p>
+com.hasbro.sanity.SanitySuite2.checkTestcaseSkip(SanitySuite2.java:7067)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.hasbro.sanity.SanitySuite2:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuite_AssortmentRetail</h1>
+<h2 id="m13">com.hasbro.sanity.SanitySuite_AssortmentRetail:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite_AssortmentRetail.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.hasbro.sanity.SanitySuite_AssortmentRetail:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.hasbro.sanity.SanitySuite_AssortmentRetail:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuite_AssortmentRetail as runmode is set to no</p>
+com.hasbro.sanity.SanitySuite_AssortmentRetail.checkTestcaseSkip(SanitySuite_AssortmentRetail.java:2063)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuiteUpdateProductName</h1>
+<h2 id="m16">com.hasbro.sanity.SanitySuiteUpdateProductName:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuiteUpdateProductName.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.hasbro.sanity.SanitySuiteUpdateProductName:reportTestcaseResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.hasbro.sanity.SanitySuiteUpdateProductName:checkTestcaseSkip</h2>
+<div style="padding-left:3em">
+<p>Skipping SanitySuiteUpdateProductName as runmode is set to no</p>
+com.hasbro.sanity.SanitySuiteUpdateProductName.checkTestcaseSkip(SanitySuiteUpdateProductName.java:1371)
+<br/>26 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>SanitySuite5_WorkFlow</h1>
+<h2 id="m19">com.hasbro.sanity.SanitySuite5_WorkFlow:tcSCFunctional</h2>
+<div style="padding-left:3em">
+<p>
+Data Provider public java.lang.Object[] com.hasbro.sanity.SanitySuite5_WorkFlow.testDataTest() must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.Object;</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

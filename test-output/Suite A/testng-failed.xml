@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test A1(failed)">
+    <classes>
+      <class name="shopSuite.CheckProductDisplay">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- shopSuite.CheckProductDisplay -->
+      <class name="shopSuite.AddProductTest">
+        <methods>
+          <include name="testcaseA1"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- shopSuite.AddProductTest -->
+    </classes>
+  </test> <!-- Test A1(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

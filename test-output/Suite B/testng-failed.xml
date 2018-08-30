@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite B]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test B1(failed)">
+    <classes>
+      <class name="cartSuite.CheckProductDisplay">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- cartSuite.CheckProductDisplay -->
+      <class name="cartSuite.AddProductTest">
+        <methods>
+          <include name="testcaseB2"/>
+        </methods>
+      </class> <!-- cartSuite.AddProductTest -->
+    </classes>
+  </test> <!-- Test B1(failed) -->
+  <test name="Test B2(failed)">
+    <classes>
+      <class name="cartSuite.CheckProductDisplay">
+        <methods>
+          <include name="testcaseB1"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- cartSuite.CheckProductDisplay -->
+    </classes>
+  </test> <!-- Test B2(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

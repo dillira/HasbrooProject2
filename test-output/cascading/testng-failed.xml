@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cascading]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="CI260(failed)">
+    <classes>
+      <class name="com.hasbro.ci2018.CI260">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCI"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI260 -->
+    </classes>
+  </test> <!-- CI260(failed) -->
+  <test thread-count="5" name="CI296(failed)">
+    <classes>
+      <class name="com.hasbro.ci2018.CI296">
+        <methods>
+          <include name="reporterdataSetResult"/>
+          <include name="Refresh"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcCI"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI296 -->
+    </classes>
+  </test> <!-- CI296(failed) -->
+  <test thread-count="5" name="CI207(failed)">
+    <classes>
+      <class name="com.hasbro.ci2018.CI207">
+        <methods>
+          <include name="Refresh"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCI" invocation-numbers="0"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI207 -->
+    </classes>
+  </test> <!-- CI207(failed) -->
+</suite> <!-- Failed suite [cascading] -->

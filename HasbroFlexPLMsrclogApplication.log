@@ -1,0 +1,13 @@
+16/07/2016 11:58:10 devpinoyLogger read from properties file successfully
+16/07/2016 11:58:12 devpinoyLogger Initiallized
+16/07/2016 11:58:12 devpinoyLogger Inside testcase A1
+16/07/2016 11:58:12 devpinoyLogger  Retail Item--2021--7/14/16--Active
+16/07/2016 11:58:35 devpinoyLogger Clicking on Library Link button.
+16/07/2016 11:58:41 devpinoyLogger Clicking on Product Type button.
+16/07/2016 11:58:50 devpinoyLogger AddProductTest Testdata row number 2 is skippped as runmode is set to N
+16/07/2016 11:58:51 devpinoyLogger AddProductTest Testdata row number 3 is skippped as runmode is set to N
+16/07/2016 11:58:51 devpinoyLogger AddProductTest Testdata row number 4 is skippped as runmode is set to N
+16/07/2016 11:58:51 devpinoyLogger AddProductTest Testdata row number 5 is skippped as runmode is set to N
+16/07/2016 11:58:51 devpinoyLogger AddProductTest Testdata row number 6 is skippped as runmode is set to N
+16/07/2016 11:58:52 devpinoyLogger Skipping CheckProductDisplay as runmode is set to no
+16/07/2016 11:58:52 devpinoyLogger Skipping Cart Suite as runmode is set to no

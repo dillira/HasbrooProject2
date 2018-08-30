@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="views">
+<listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<test name="BOMView">
+<classes>
+<class name="com.hasbro.views.BOMView">
+</class>
+</classes>
+</test>
+
+<test name="CostSheetView">
+<classes>
+<class name="com.hasbro.views.CostSheetView">
+</class>
+</classes>
+</test>
+
+<test name="LineSheetView">
+<classes>
+<class name="com.hasbro.views.LineSheetView">
+</class>
+</classes>
+</test>
+
+</suite>

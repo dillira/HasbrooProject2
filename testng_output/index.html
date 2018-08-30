@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_B">
+              <span class="suite-name border-skipped">Suite B</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_B">
+                    <span>C:\Users\Rupjit\neweclipse\SelCoreFrameWork29Dec\cartSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_B">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_B">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_B">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_B">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_B">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_B">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  2 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_B" class="hide-methods skipped suite-Suite_B"> (hide)</a> <!-- hide-methods skipped suite-Suite_B -->
+                      <a href="#" panel-name="suite-Suite_B" class="show-methods skipped suite-Suite_B"> (show)</a> <!-- show-methods skipped suite-Suite_B -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_B">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.CheckProductDisplay" hash-for-method="testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)">testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.AddProductTest" hash-for-method="testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)">testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_B -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_B" class="hide-methods passed suite-Suite_B"> (hide)</a> <!-- hide-methods passed suite-Suite_B -->
+                      <a href="#" panel-name="suite-Suite_B" class="show-methods passed suite-Suite_B"> (show)</a> <!-- show-methods passed suite-Suite_B -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_B">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.CheckProductDisplay" hash-for-method="testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)">testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.CheckProductDisplay" hash-for-method="testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)">testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.AddProductTest" hash-for-method="testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)">testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="cartSuite.AddProductTest" hash-for-method="testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)">testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_B -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_A">
+              <span class="suite-name border-passed">Suite A</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_A">
+                    <span>C:\Users\Rupjit\neweclipse\SelCoreFrameWork29Dec\shopSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_A">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_A">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_A">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_A">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_A">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_A">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods passed suite-Suite_A"> (hide)</a> <!-- hide-methods passed suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods passed suite-Suite_A"> (show)</a> <!-- show-methods passed suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_A">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="shopSuite.AddProductTest" hash-for-method="testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)">testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="shopSuite.AddProductTest" hash-for-method="testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)">testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="shopSuite.AddProductTest" hash-for-method="testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)">testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="shopSuite.CheckProductDisplay" hash-for-method="testcaseA2">testcaseA2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_A -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_B" class="panel Suite_B">
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cartSuite.AddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)">
+                  </a> <!-- testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4) -->
+                  <span class="method-name">testcaseB2</span>
+                  <span class="parameters">(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)</span>
+                  <div class="stack-trace">org.testng.SkipException: TestcaseB2 Testdata row number 2 is skipped as runmode is set to N
+	at cartSuite.AddProductTest.testcaseB2(TestcaseB2.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cartSuite.CheckProductDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)">
+                  </a> <!-- testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4) -->
+                  <span class="method-name">testcaseB1</span>
+                  <span class="parameters">(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)</span>
+                  <div class="stack-trace">org.testng.SkipException: TestcaseB1 Testdata row number 2 is skipped as runmode is set to N
+	at cartSuite.CheckProductDisplay.testcaseB1(TestcaseB1.java:27)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cartSuite.AddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)">
+                  </a> <!-- testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4) -->
+                  <span class="method-name">testcaseB2</span>
+                  <span class="parameters">(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)">
+                  </a> <!-- testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4) -->
+                  <span class="method-name">testcaseB2</span>
+                  <span class="parameters">(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-passed -->
+          <div class="suite-Suite_B-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cartSuite.CheckProductDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)">
+                  </a> <!-- testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4) -->
+                  <span class="method-name">testcaseB1</span>
+                  <span class="parameters">(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)">
+                  </a> <!-- testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4) -->
+                  <span class="method-name">testcaseB1</span>
+                  <span class="parameters">(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-passed -->
+        </div> <!-- panel Suite_B -->
+        <div panel-name="suite-Suite_A" class="panel Suite_A">
+          <div class="suite-Suite_A-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">shopSuite.AddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)">
+                  </a> <!-- testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4) -->
+                  <span class="method-name">testcaseA1</span>
+                  <span class="parameters">(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)">
+                  </a> <!-- testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4) -->
+                  <span class="method-name">testcaseA1</span>
+                  <span class="parameters">(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)">
+                  </a> <!-- testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4) -->
+                  <span class="method-name">testcaseA1</span>
+                  <span class="parameters">(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-passed -->
+          <div class="suite-Suite_A-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">shopSuite.CheckProductDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseA2">
+                  </a> <!-- testcaseA2 -->
+                  <span class="method-name">testcaseA2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-passed -->
+        </div> <!-- panel Suite_A -->
+        <div panel-name="suite-My_practice_Suite" class="panel My_practice_Suite">
+        </div> <!-- panel My_practice_Suite -->
+        <div panel-name="test-xml-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rupjit\neweclipse\SelCoreFrameWork29Dec\cartSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite B&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test B1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;cartSuite.CheckProductDisplay&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B1 --&gt;
+  &lt;test name=&quot;Test B2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;cartSuite.AddProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite B --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rupjit\neweclipse\SelCoreFrameWork29Dec\shopSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite A&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test A1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;shopSuite.AddProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test A1 --&gt;
+  &lt;test name=&quot;Test A2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;shopSuite.CheckProductDisplay&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test A2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite A --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rupjit\neweclipse\SelCoreFrameWork29Dec\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My practice Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./shopSuite.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./cartSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My practice Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test B1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test B2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test A1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test A2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_B');
+function tableData_Suite_B() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcaseB1')
+data.setCell(0, 2, 'cartSuite.CheckProductDisplay')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcaseB1')
+data.setCell(1, 2, 'cartSuite.CheckProductDisplay')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcaseB2')
+data.setCell(2, 2, 'cartSuite.AddProductTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcaseB2')
+data.setCell(3, 2, 'cartSuite.AddProductTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcaseB1')
+data.setCell(4, 2, 'cartSuite.CheckProductDisplay')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcaseB2')
+data.setCell(5, 2, 'cartSuite.AddProductTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['Suite_B']= { tableData: data, tableDiv: 'times-div-Suite_B'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-Suite_B">
+              </div> <!-- times-div-Suite_B -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_A');
+function tableData_Suite_A() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcaseA1')
+data.setCell(0, 2, 'shopSuite.AddProductTest')
+data.setCell(0, 3, 4);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcaseA1')
+data.setCell(1, 2, 'shopSuite.AddProductTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcaseA1')
+data.setCell(2, 2, 'shopSuite.AddProductTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcaseA2')
+data.setCell(3, 2, 'shopSuite.CheckProductDisplay')
+data.setCell(3, 3, 1);
+window.suiteTableData['Suite_A']= { tableData: data, tableDiv: 'times-div-Suite_A'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 ms</span>
+              <div id="times-div-Suite_A">
+              </div> <!-- times-div-Suite_A -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_practice_Suite');
+function tableData_My_practice_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_practice_Suite']= { tableData: data, tableDiv: 'times-div-My_practice_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_practice_Suite">
+              </div> <!-- times-div-My_practice_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">2387 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">2460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)</span>
+                <span class="method-start">3958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">3959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)</span>
+                <span class="method-start">4055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4596 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA2</span>
+                <span class="method-start">4600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">4619 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4620 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)</span>
+                <span class="method-start">4708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)</span>
+                <span class="method-start">4798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4868 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">5014 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)</span>
+                <span class="method-start">5019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)</span>
+                <span class="method-start">5179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">5277 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">2387 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">2460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)</span>
+                <span class="method-start">3958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">3959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)</span>
+                <span class="method-start">4055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4596 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA2</span>
+                <span class="method-start">4600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">4619 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4620 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)</span>
+                <span class="method-start">4708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)</span>
+                <span class="method-start">4798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4868 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">5014 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)</span>
+                <span class="method-start">5019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)</span>
+                <span class="method-start">5179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">5277 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">2387 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata1_A1_1, Testdata1_A1_2, Testdata1_A1_3, Testdata1_A1_4)</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">2460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata2_A1_1, Testdata2_A1_2, Testdata2_A1_3, Testdata2_A1_4)</span>
+                <span class="method-start">3958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">3959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseA1(Testdata3_A1_1, Testdata3_A1_2, Testdata3_A1_3, Testdata3_A1_4)</span>
+                <span class="method-start">4055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shopSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4596 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseA2</span>
+                <span class="method-start">4600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkipTest</span>
+                <span class="method-start">4619 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.CheckProductDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">4620 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata1_B1_1, Testdata1_B1_2, Testdata1_B1_3, Testdata1_B1_4)</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata2_B1_1, Testdata2_B1_2, Testdata2_B1_3, Testdata2_B1_4)</span>
+                <span class="method-start">4708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB1(Testdata3_B1_1, Testdata3_B1_2, Testdata3_B1_3, Testdata3_B1_4)</span>
+                <span class="method-start">4798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">4799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">4868 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cartSuite.AddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestcaseSkip</span>
+                <span class="method-start">5014 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata1_B2_1, Testdata1_B2_2, Testdata1_B2_3, Testdata1_B2_4)</span>
+                <span class="method-start">5019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata2_B2_1, Testdata2_B2_2, Testdata2_B2_3, Testdata2_B2_4)</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testcaseB2(Testdata3_B2_1, Testdata3_B2_2, Testdata3_B2_3, Testdata3_B2_4)</span>
+                <span class="method-start">5179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterdataSetResult</span>
+                <span class="method-start">5180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestcaseResult</span>
+                <span class="method-start">5277 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

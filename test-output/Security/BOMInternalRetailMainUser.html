@@ -1,0 +1,952 @@
+<html>
+<head>
+<title>TestNG:  BOMInternalRetailMainUser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BOMInternalRetailMainUser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>164/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 06 10:37:04 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>6046 seconds (6046975 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@13e5d52b</td>
+<td><div><pre>java.lang.AssertionError: expected [Rejected] but found [In Work]
+	at com.hasbro.security.BOMInternalRetailMainUser.verifyBOMStatus(BOMInternalRetailMainUser.java:1873)
+	at com.hasbro.security.BOMInternalRetailMainUser.updateInWorktoRj(BOMInternalRetailMainUser.java:487)
+	at com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet(BOMInternalRetailMainUser.java:180)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace469864257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace469864257'><pre>java.lang.AssertionError: expected [Rejected] but found [In Work]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.hasbro.security.BOMInternalRetailMainUser.verifyBOMStatus(BOMInternalRetailMainUser.java:1873)
+	at com.hasbro.security.BOMInternalRetailMainUser.updateInWorktoRj(BOMInternalRetailMainUser.java:487)
+	at com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet(BOMInternalRetailMainUser.java:180)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1297)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>11</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6ed46340</td>
+<td></td>
+<td>75</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@48add722</td>
+<td></td>
+<td>23</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2c6799fe</td>
+<td></td>
+<td>27</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@11965dd4</td>
+<td></td>
+<td>31</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5c95e2c5</td>
+<td></td>
+<td>24</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7a273ab2</td>
+<td></td>
+<td>70</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6a9fe461</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@49c47c1b</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3ab42c2c</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@79857362</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6c2c3cdf</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6e2a1e5</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1dac3859</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4f6056ed</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4227511a</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@51d92d32</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2d4ba9a0</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@60d145da</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1886675b</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2e79c4</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7058c6c8</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1a4db28c</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@315ab221</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@42491d97</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7411fd90</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3bff84c</td>
+<td></td>
+<td>151</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@671089a0</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6dbf8570</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@16b9082a</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6a38ff29</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@9862647</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1883a602</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@46250560</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6b497b3a</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5345cc0a</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@56f3c3d6</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3893c26d</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@18a3feee</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@65fb546c</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2dded676</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@bf8f90a</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@c2b3215</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@334c5fc8</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@68fa52b1</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2486d60d</td>
+<td></td>
+<td>1</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7168e312</td>
+<td></td>
+<td>510</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@208b50e8</td>
+<td></td>
+<td>167</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1adef192</td>
+<td></td>
+<td>73</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@87a6a7a</td>
+<td></td>
+<td>49</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3ebc6814</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@444a633b</td>
+<td></td>
+<td>45</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@29755841</td>
+<td></td>
+<td>44</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7287ceaf</td>
+<td></td>
+<td>44</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2f26e423</td>
+<td></td>
+<td>44</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@38621947</td>
+<td></td>
+<td>116</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3b56e95a</td>
+<td></td>
+<td>189</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7768aa29</td>
+<td></td>
+<td>81</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6ff74f1b</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@47f7cb83</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4b67f61e</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@79ec24b9</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2cb62308</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@55645ece</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@21c7857a</td>
+<td></td>
+<td>16</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3996a417</td>
+<td></td>
+<td>226</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@24a57e4e</td>
+<td></td>
+<td>83</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5340c63a</td>
+<td></td>
+<td>20</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4eb1757d</td>
+<td></td>
+<td>57</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@420bd6a0</td>
+<td></td>
+<td>24</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4d5387a1</td>
+<td></td>
+<td>20</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1877e927</td>
+<td></td>
+<td>21</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5da86dc9</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@410a1e0a</td>
+<td></td>
+<td>28</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@10b5e705</td>
+<td></td>
+<td>34</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@372c0ae5</td>
+<td></td>
+<td>24</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2974ffec</td>
+<td></td>
+<td>23</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@381f4e86</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@72d1b4f</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5081426d</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5e844c0e</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1cad5226</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7335c59f</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@297d73be</td>
+<td></td>
+<td>24</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@55e5bea3</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@23affa5b</td>
+<td></td>
+<td>198</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7e6bca8c</td>
+<td></td>
+<td>184</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3cc9a67c</td>
+<td></td>
+<td>60</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@442117e0</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1880501d</td>
+<td></td>
+<td>19</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@389fc62b</td>
+<td></td>
+<td>48</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@49147d02</td>
+<td></td>
+<td>39</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@546fdd7</td>
+<td></td>
+<td>42</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1f5c55da</td>
+<td></td>
+<td>46</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@59347684</td>
+<td></td>
+<td>163</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3322eccd</td>
+<td></td>
+<td>142</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@138173b</td>
+<td></td>
+<td>12</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7cb76043</td>
+<td></td>
+<td>31</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6cdb907</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@222d6997</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@636d2326</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@241ff270</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4ff17275</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6d9dbcd</td>
+<td></td>
+<td>23</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@c27ac23</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@577053a5</td>
+<td></td>
+<td>80</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1356f1e4</td>
+<td></td>
+<td>45</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5b1957f0</td>
+<td></td>
+<td>38</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6a6ebe04</td>
+<td></td>
+<td>34</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3fd63597</td>
+<td></td>
+<td>32</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1b2b2a58</td>
+<td></td>
+<td>40</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@a9c481a</td>
+<td></td>
+<td>32</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@159d59d3</td>
+<td></td>
+<td>46</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1be9ac7a</td>
+<td></td>
+<td>42</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@59523cb5</td>
+<td></td>
+<td>49</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@31e6631d</td>
+<td></td>
+<td>43</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4e4ae733</td>
+<td></td>
+<td>34</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@189618fc</td>
+<td></td>
+<td>19</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@506938cf</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@52154754</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4b7f515a</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6386e131</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7a3002ce</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@267c53b</td>
+<td></td>
+<td>19</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@33a3b1ac</td>
+<td></td>
+<td>32</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@67785180</td>
+<td></td>
+<td>69</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1da409d3</td>
+<td></td>
+<td>25</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@21d64941</td>
+<td></td>
+<td>26</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@fd6a206</td>
+<td></td>
+<td>23</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2a87162d</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@17d0683f</td>
+<td></td>
+<td>24</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@45fa7c5</td>
+<td></td>
+<td>19</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3ea3e3da</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2c87bc5d</td>
+<td></td>
+<td>19</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3802a862</td>
+<td></td>
+<td>22</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@411a5128</td>
+<td></td>
+<td>28</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6006c7e2</td>
+<td></td>
+<td>21</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@71f2faeb</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@5c1e1d0f</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4f9e94b5</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@19f17373</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7fb2f704</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@53e86b98</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6868766c</td>
+<td></td>
+<td>23</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7a90faf9</td>
+<td></td>
+<td>21</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@12723878</td>
+<td></td>
+<td>26</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@2562505</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@29a6f835</td>
+<td></td>
+<td>8</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@549c98ca</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@57aecbd9</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@64e3b224</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7a1a89dd</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@4a70049c</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6ba1ee08</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@12aa13ca</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@3cd03423</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@76ce93c1</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@12fbf2be</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@500d8768</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6d41c066</td>
+<td></td>
+<td>10</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@6f931694</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@223077da</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@1eba9233</td>
+<td></td>
+<td>0</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@7d1b2372</td>
+<td></td>
+<td>11</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+<tr>
+<td title='com.hasbro.security.BOMInternalRetailMainUser.tcCostSheet()'><b>tcCostSheet</b><br>Test class: com.hasbro.security.BOMInternalRetailMainUser<br>Parameters: [Ljava.lang.String;@acbadf3</td>
+<td></td>
+<td>9</td>
+<td>com.hasbro.security.BOMInternalRetailMainUser@245b4bdc</td></tr>
+</table><p>
+</body>
+</html>

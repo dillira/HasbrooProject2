@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke">
+    <listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<test name="InternalcostingWF">
+<classes>
+<class name="com.hasbro.workflow.InternalcostingWF">
+</class></classes>
+</test>
+
+
+<test name="SourcingconfigapprovalWF">
+<classes>
+<class name="com.hasbro.workflow.SourcingconfigapprovalWF">
+</class></classes>
+</test>
+
+<test name="SmokeFlow">
+<classes>
+<class name="com.hasbro.workflow.SmokeFlow">
+</class></classes>
+</test>
+</suite>

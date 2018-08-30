@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hasbro.security.BOMInternalMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcBOM"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.BOMInternalMainUser -->
+      <class name="com.hasbro.security.CostsheetInternal">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCostSheet"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CostsheetInternal -->
+      <class name="com.hasbro.security.Material">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcMaterial"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Material -->
+      <class name="com.hasbro.views.LineSheetView">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tclsView"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.views.LineSheetView -->
+      <class name="com.hasbro.cascading.Cascadingplan">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcSCFunctional"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.cascading.Cascadingplan -->
+      <class name="com.hasbro.ci2018.CI296">
+        <methods>
+          <include name="reporterdataSetResult"/>
+          <include name="Refresh"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcCI"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI296 -->
+      <class name="com.hasbro.cascading.Cascadingplaceholder">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcProduct"/>
+        </methods>
+      </class> <!-- com.hasbro.cascading.Cascadingplaceholder -->
+      <class name="com.hasbro.security.CostsheetTooling">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCostSheet"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CostsheetTooling -->
+      <class name="com.hasbro.security.Packaging">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcPackaging"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Packaging -->
+      <class name="com.hasbro.security.Supplier">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcSupplier"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Supplier -->
+      <class name="com.hasbro.security.CSInternalProduct">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCostSheet"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSInternalProduct -->
+      <class name="com.hasbro.security.CSInternalRetailToolingMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCostSheet"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSInternalRetailToolingMainUser -->
+      <class name="com.hasbro.security.BOMExternalMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcBOM"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.BOMExternalMainUser -->
+      <class name="com.hasbro.security.RetailDocument">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcMaterial"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.RetailDocument -->
+      <class name="com.hasbro.security.CSVendorRetailMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCostSheet"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSVendorRetailMainUser -->
+      <class name="com.hasbro.security.InternalBOMSoftG">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcBOM"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.InternalBOMSoftG -->
+      <class name="com.hasbro.security.SourcingConfig">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSourcingConfig"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.SourcingConfig -->
+      <class name="com.hasbro.security.Colorway">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcColor"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Colorway -->
+      <class name="com.hasbro.security.Color">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcColor"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Color -->
+      <class name="com.hasbro.workflow.SmokeFlow">
+        <methods>
+          <include name="tcSCFunctional"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.workflow.SmokeFlow -->
+      <class name="com.hasbro.workflow.InternalcostingWF">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="tcSCFunctional"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.workflow.InternalcostingWF -->
+      <class name="com.hasbro.security.ChangeActivity">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcRCA"/>
+        </methods>
+      </class> <!-- com.hasbro.security.ChangeActivity -->
+      <class name="com.hasbro.views.LineSheetViewOld">
+        <methods>
+          <include name="tclsView"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.views.LineSheetViewOld -->
+      <class name="com.hasbro.security.PlaceHolderDevPlan">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcPlaceHolderDevPlan"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.PlaceHolderDevPlan -->
+      <class name="com.hasbro.ci2018.CI260">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCI"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI260 -->
+      <class name="com.hasbro.security.CSInternalRetailMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcCostSheet"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSInternalRetailMainUser -->
+      <class name="com.hasbro.security.CostsheetExternalProduct">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCostSheet"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CostsheetExternalProduct -->
+      <class name="com.hasbro.security.GlobalLinePlan">
+        <methods>
+          <include name="reporterdataSetResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcGlobalLinePlan"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.GlobalLinePlan -->
+      <class name="com.hasbro.security.CostsheetExternalRetail">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcCostSheet"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CostsheetExternalRetail -->
+      <class name="com.hasbro.security.Season">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcSeason"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Season -->
+      <class name="com.hasbro.security.BOMMaterialMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcBOM"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.BOMMaterialMainUser -->
+      <class name="com.hasbro.security.ExternalBOM">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcbom"/>
+        </methods>
+      </class> <!-- com.hasbro.security.ExternalBOM -->
+      <class name="com.hasbro.workflow.CostingScenarioA">
+        <methods>
+          <include name="reporterdataSetResult"/>
+          <include name="tcSCFunctional"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.workflow.CostingScenarioA -->
+      <class name="com.hasbro.security.CSVendorRetailToolingMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCostSheet"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSVendorRetailToolingMainUser -->
+      <class name="com.hasbro.cascading.CascadingProduct">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcProduct"/>
+        </methods>
+      </class> <!-- com.hasbro.cascading.CascadingProduct -->
+      <class name="com.hasbro.views.BOMView">
+        <methods>
+          <include name="reporterdataSetResult"/>
+          <include name="tcView"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.views.BOMView -->
+      <class name="com.hasbro.security.CSInternalProdMainUser">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCostSheet"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSInternalProdMainUser -->
+      <class name="com.hasbro.views.CostSheetView">
+        <methods>
+          <include name="tcView"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.views.CostSheetView -->
+      <class name="com.hasbro.security.MaterialOld">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcMaterial"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.MaterialOld -->
+      <class name="com.hasbro.security.Specifications">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSpecifications"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Specifications -->
+      <class name="com.hasbro.workflow.SourcingconfigapprovalWF">
+        <methods>
+          <include name="tcSCWF"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.workflow.SourcingconfigapprovalWF -->
+      <class name="com.hasbro.security.Sample">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcSample"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Sample -->
+      <class name="com.hasbro.security.MaterialBOM">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcBOM"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.MaterialBOM -->
+      <class name="com.hasbro.security.MaterialBOMAnshu">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcBOM"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.MaterialBOMAnshu -->
+      <class name="com.hasbro.security.Country">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSupplier"/>
+          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Country -->
+      <class name="com.hasbro.security.CSVendorProductMainUser">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCostSheet"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.CSVendorProductMainUser -->
+      <class name="com.hasbro.security.Product">
+        <methods>
+          <include name="tcProduct"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.security.Product -->
+      <class name="com.hasbro.ci2018.CI207">
+        <methods>
+          <include name="Refresh"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCI"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI207 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cart Suite]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="AddProductTest(failed)">
+    <classes>
+      <class name="cartSuite.AddProductTest">
+        <methods>
+          <include name="testcaseB2"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- cartSuite.AddProductTest -->
+    </classes>
+  </test> <!-- AddProductTest(failed) -->
+</suite> <!-- Failed suite [Cart Suite] -->

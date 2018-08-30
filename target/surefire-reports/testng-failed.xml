@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Smoke]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="SanitySuite2018(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="tcSCFunctional"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite2018(failed) -->
+  <test name="SanitySuite1(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSCFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite1(failed) -->
+  <test name="SanitySuite3(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSCFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite3(failed) -->
+  <test name="SanitySuite2(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSCFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite2(failed) -->
+  <test name="SanitySuite_AssortmentRetail(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSCFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite_AssortmentRetail(failed) -->
+  <test name="SanitySuiteUpdateProductName(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcSCFunctional"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuiteUpdateProductName(failed) -->
+  <test name="SanitySuite5_WorkFlow(failed)">
+    <classes>
+      <class name="com.hasbro.sanity.SanitySuite2018">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
+      <class name="com.hasbro.sanity.SanitySuite3">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      <class name="com.hasbro.sanity.SanitySuite2">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcSCFunctional"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
+      <class name="com.hasbro.sanity.SanitySuite1">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
+    </classes>
+  </test> <!-- SanitySuite5_WorkFlow(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

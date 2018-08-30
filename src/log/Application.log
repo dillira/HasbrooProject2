@@ -1,0 +1,232 @@
+28/08/2018 16:59:22 devpinoyLogger read from properties file successfully
+28/08/2018 16:59:33 devpinoyLogger Initiallized
+28/08/2018 16:59:33 devpinoyLogger Skipping SanitySuite2018 as runmode is set to no
+28/08/2018 16:59:33 devpinoyLogger Skipping SanitySuite1 as runmode is set to no
+28/08/2018 16:59:34 devpinoyLogger Skipping SanitySuite3 as runmode is set to no
+28/08/2018 16:59:34 devpinoyLogger Skipping SanitySuite2 as runmode is set to no
+28/08/2018 16:59:35 devpinoyLogger Skipping SanitySuite_AssortmentRetail as runmode is set to no
+28/08/2018 16:59:39 devpinoyLogger Skipping SanitySuiteUpdateProductName as runmode is set to no
+28/08/2018 16:59:41 devpinoyLogger No Driver is Launched
+28/08/2018 16:59:41 devpinoyLogger Inside testcase for Sanity suite
+28/08/2018 16:59:41 devpinoyLogger col0 :badmin
+28/08/2018 16:59:41 devpinoyLogger col1 :badmin
+28/08/2018 16:59:41 devpinoyLogger col1 :Pre-Requisite
+28/08/2018 16:59:46 devpinoyLogger Url: https://badmin:badmin@hasbroplm-training.ptcmanaged.com/Windchill/rfa/jsp/main/Main.jsp
+28/08/2018 17:00:00 devpinoyLogger Home page is present
+28/08/2018 17:00:01 devpinoyLogger Clicking on My Season link button.
+28/08/2018 17:00:02 devpinoyLogger Selected 2019 option from drop down.
+28/08/2018 17:00:07 devpinoyLogger Clicking on Line Sheet button.
+28/08/2018 17:00:10 devpinoyLogger Selected Development Plan option from drop down.
+28/08/2018 17:00:13 devpinoyLogger Selected Create New: Product option from drop down.
+28/08/2018 17:00:17 devpinoyLogger Clicking on Product Type button.
+28/08/2018 17:00:19 devpinoyLogger Entered JQRM in the text field.
+28/08/2018 17:00:19 devpinoyLogger Entered GAMES in the text field.
+28/08/2018 17:00:20 devpinoyLogger Entered ADULT in the text field.
+28/08/2018 17:00:20 devpinoyLogger Entered AVALON HILL in the text field.
+28/08/2018 17:00:20 devpinoyLogger Entered BOYS in the text field.
+28/08/2018 17:00:21 devpinoyLogger Selected Assortment option from drop down.
+28/08/2018 17:00:21 devpinoyLogger Selected Not IP Sensitive (Open) option from drop down.
+28/08/2018 17:00:21 devpinoyLogger Selected AVALON HILL option from Segment Drop Down drop down successfully.
+28/08/2018 17:00:22 devpinoyLogger Selected ACTION FIGURES & ACCESSORIES option from Super category Drop Down drop down successfully.
+28/08/2018 17:00:22 devpinoyLogger Clicking on CategoryDropDown button.
+28/08/2018 17:00:24 devpinoyLogger Selected ACTION FIGS PLAYSET & ACCESSORIES option from Category Drop Down drop down successfully.
+28/08/2018 17:00:24 devpinoyLogger Selected 1D MEDIA LTD option from Licensor Drop Down drop down successfully.
+28/08/2018 17:00:25 devpinoyLogger Clicking on PropertyDropDown button.
+28/08/2018 17:00:26 devpinoyLogger Selected 1D option from Property Drop Down drop down successfully.
+28/08/2018 17:00:27 devpinoyLogger Selected AVALON HILL option from Family Drop Down drop down successfully.
+28/08/2018 17:00:27 devpinoyLogger Selected 1D option from Family Drop Down drop down successfully.
+28/08/2018 17:00:28 devpinoyLogger Selected BIRTH option from Lower Age Drop Down drop down successfully.
+28/08/2018 17:00:28 devpinoyLogger Selected BIRTH option from Upper Age Drop Down drop down successfully.
+28/08/2018 17:00:29 devpinoyLogger Selected FEMALE option from  Gender  Drop Down drop down successfully.
+28/08/2018 17:00:29 devpinoyLogger Selected No option from Third party Indicator  Drop Down drop down successfully.
+28/08/2018 17:00:30 devpinoyLogger Selected Yes option from ISO  Drop Down drop down successfully.
+28/08/2018 17:00:35 devpinoyLogger Clicking on Save button.
+28/08/2018 17:00:37 devpinoyLogger Entered Mainline in the text field.
+28/08/2018 17:00:37 devpinoyLogger Product Number is E7840
+28/08/2018 17:00:37 devpinoyLogger Entered 10 in the Total Cost text field successfully.
+28/08/2018 17:00:41 devpinoyLogger Clicking on View Product button.
+28/08/2018 17:00:42 devpinoyLogger View Season Product Information apge successfully appears
+28/08/2018 17:00:45 devpinoyLogger Clicking on Sourcing button.
+28/08/2018 17:00:48 devpinoyLogger Selected Add Sourcing Configuration
+            
+              
+            
+             
+                                                 option from Add Sourcing Configuration drop down successfully.
+28/08/2018 17:00:50 devpinoyLogger Selected 1 option from drop down.
+28/08/2018 17:00:50 devpinoyLogger Selected 1 option from drop down.
+28/08/2018 17:00:51 devpinoyLogger Clicking on Supplier button.
+28/08/2018 17:00:54 devpinoyLogger Entered AEQUS ENGINEERED PLASTICS PRIVATE L IMITED in the Suplier Name text field successfully.
+28/08/2018 17:01:20 devpinoyLogger Clicking on Search Button button.
+28/08/2018 17:01:21 devpinoyLogger Clicking on ChooseColorWay button.
+28/08/2018 17:01:27 devpinoyLogger Clicking on Create Button button.
+28/08/2018 17:01:31 devpinoyLogger Clicking on Sourcing button.
+28/08/2018 17:01:37 devpinoyLogger Selected 002 : AEQUS option from Source DropDown Selection drop down successfully.
+28/08/2018 17:01:40 devpinoyLogger Selected Update Source
+          
+              
+          
+          
+          
+                                        
+                                                 option from VendorActionDropDown drop down successfully.
+28/08/2018 17:01:41 devpinoyLogger Selected Approved option from SourceStatusDropDown drop down successfully.
+28/08/2018 17:01:53 devpinoyLogger SaveButtonOfCostSheet is clicked.
+28/08/2018 17:02:04 devpinoyLogger Clicking on Specification button.
+28/08/2018 17:02:16 devpinoyLogger Clicking on Create New Specification button.
+28/08/2018 17:02:17 devpinoyLogger Selected 0 option from wave value drop down successfully.
+28/08/2018 17:02:18 devpinoyLogger Selected Supplier Released option from Specification Status drop down successfully.
+28/08/2018 17:02:29 devpinoyLogger Clicking on Create button.
+28/08/2018 17:02:35 devpinoyLogger Selected 1 option from drop down.
+28/08/2018 17:02:39 devpinoyLogger Selected Create Colorway
+                                         
+                                              option from Source DropDown Selection drop down successfully.
+28/08/2018 17:02:45 devpinoyLogger Clicking on Suffix button.
+28/08/2018 17:02:52 devpinoyLogger Clicking on Serach Button button.
+28/08/2018 17:02:53 devpinoyLogger Clicking on ChooseButton button.
+28/08/2018 17:02:59 devpinoyLogger Clicking on Save button.
+28/08/2018 17:03:06 devpinoyLogger Clicking on View Product button.
+28/08/2018 17:03:07 devpinoyLogger The Seected ColorwayValue is E7840-000
+28/08/2018 17:03:12 devpinoyLogger Selected -- None Selected -- option from Source DropDown Selection drop down successfully.
+28/08/2018 17:03:17 devpinoyLogger Selected Copy / Link Product
+                                     
+ 
+                                     
+                                          option from Source DropDown Selection drop down successfully.
+28/08/2018 17:03:19 devpinoyLogger Selected Product/Retail Item option from product Type drop down successfully.
+28/08/2018 17:03:19 devpinoyLogger Selected Assortment-Retail (Linked) option from RelationShipType drop down successfully.
+28/08/2018 17:03:20 devpinoyLogger Clicking on SourcesCheckBox button.
+28/08/2018 17:03:20 devpinoyLogger Clicking on ColorWay Check Box button.
+28/08/2018 17:03:25 devpinoyLogger Clicking on Next button.
+28/08/2018 17:03:26 devpinoyLogger Selected No option from SoftGoodIncluded drop down successfully.
+28/08/2018 17:03:26 devpinoyLogger Selected No option from ElectronicsIncluded drop down successfully.
+28/08/2018 17:03:44 devpinoyLogger Clicking on Next button.
+28/08/2018 17:03:47 devpinoyLogger Clicking on view Product button.
+28/08/2018 17:03:48 devpinoyLogger Created Copy/Link Product RetailItem Value is E7841
+28/08/2018 17:03:48 devpinoyLogger Entered E7840 in the text field.
+28/08/2018 17:03:53 devpinoyLogger Clicking on SearchButton button.
+28/08/2018 17:03:58 devpinoyLogger Clicking on Details button.
+28/08/2018 17:03:59 devpinoyLogger Product Details Page Appears
+28/08/2018 17:04:03 devpinoyLogger Selected 2019 option from Season year drop down successfully.
+28/08/2018 17:04:05 devpinoyLogger Selected -- None Selected -- option from Source DropDown Selection drop down successfully.
+28/08/2018 17:04:09 devpinoyLogger Selected Copy / Link Product
+                                     
+ 
+                                     
+                                          option from Source DropDown Selection drop down successfully.
+28/08/2018 17:04:11 devpinoyLogger Selected Product/Retail Item option from product Type drop down successfully.
+28/08/2018 17:04:12 devpinoyLogger Selected Assortment-Retail (Linked) option from RelationShipType drop down successfully.
+28/08/2018 17:04:12 devpinoyLogger Clicking on SourcesCheckBox button.
+28/08/2018 17:04:13 devpinoyLogger Clicking on ColorWay Check Box button.
+28/08/2018 17:04:16 devpinoyLogger Clicking on Next button.
+28/08/2018 17:04:17 devpinoyLogger Selected No option from SoftGoodIncluded drop down successfully.
+28/08/2018 17:04:18 devpinoyLogger Selected No option from ElectronicsIncluded drop down successfully.
+28/08/2018 17:04:23 devpinoyLogger Clicking on Next button.
+28/08/2018 17:04:26 devpinoyLogger Clicking on view Product button.
+28/08/2018 17:04:28 devpinoyLogger Created Copy/Link Product RetailItem Value is E7842
+28/08/2018 17:04:28 devpinoyLogger Selected logout option from drop down.
+28/08/2018 17:04:28 devpinoyLogger Logout?
+28/08/2018 17:04:31 devpinoyLogger No Alert is Present
+28/08/2018 17:04:31 devpinoyLogger Driver closed
+28/08/2018 17:04:34 devpinoyLogger Url: https://costinguserST2:test123@hasbroplm-training.ptcmanaged.com/Windchill/rfa/jsp/main/Main.jsp
+28/08/2018 17:04:48 devpinoyLogger Home page is present
+28/08/2018 17:04:49 devpinoyLogger Entered E7840 in the text field.
+28/08/2018 17:05:08 devpinoyLogger Clicking on SearchButton button.
+28/08/2018 17:05:13 devpinoyLogger Clicking on Details button.
+28/08/2018 17:05:14 devpinoyLogger Product Details Page Appears
+28/08/2018 17:05:17 devpinoyLogger Selected 2019 option from Season year drop down successfully.
+28/08/2018 17:05:20 devpinoyLogger Clicking on Sourcing button.
+28/08/2018 17:05:30 devpinoyLogger Clicking on Costing button.
+28/08/2018 17:05:35 devpinoyLogger Selected 002 : AEQUS option from Source DropDown Selection drop down successfully.
+28/08/2018 17:05:39 devpinoyLogger Selected Create RFQ
+
+                                         
+
+           
+                                         
+                                              option from Source DropDown Selection drop down successfully.
+28/08/2018 17:05:41 devpinoyLogger Clicking on AllCheckBox button.
+28/08/2018 17:05:41 devpinoyLogger Clicking on VendorCheckBox button.
+28/08/2018 17:05:41 devpinoyLogger AEQUS ENGINEERED PLASTICS PRIVATE L IMITED is only checked
+28/08/2018 17:05:42 devpinoyLogger Clicking on SelectButton button.
+28/08/2018 17:05:50 devpinoyLogger Selected E7840-000 option from ColrwayDropDown drop down successfully.
+28/08/2018 17:05:50 devpinoyLogger Selected 0 option from WaveDropDown drop down successfully.
+28/08/2018 17:05:50 devpinoyLogger Entered 5/30/2018 in the RFQRequestDate text field successfully.
+28/08/2018 17:05:51 devpinoyLogger Entered 5/30/2018 in the RFQ Cut Off date text field successfully.
+28/08/2018 17:05:51 devpinoyLogger Selected euser0001 option from ResponsibleEngineerDropDown drop down successfully.
+28/08/2018 17:05:52 devpinoyLogger Selected cuser0001 option from ResponsibleCostEngineerDropDown drop down successfully.
+28/08/2018 17:05:59 devpinoyLogger Clicking on Create Button button.
+28/08/2018 17:06:01 devpinoyLogger Clicking on Expansion product Image button.
+28/08/2018 17:06:01 devpinoyLogger Clicking on Approximate Volume button.
+28/08/2018 17:06:02 devpinoyLogger Entered 200 in the Approximate Value text field successfully.
+28/08/2018 17:06:14 devpinoyLogger Selected Create Cost Sheet Templates option from Create Cost Sheet Template drop down successfully.
+28/08/2018 17:06:17 devpinoyLogger Selected Cost Sheet Product\Product\Vendor option from CostSheetType drop down successfully.
+28/08/2018 17:06:17 devpinoyLogger Clicking on ColorWay First Value button.
+28/08/2018 17:06:17 devpinoyLogger Clicking on Add HyperLink button.
+28/08/2018 17:06:18 devpinoyLogger Entered Testing in the Cost Sheet Name text Box text field successfully.
+28/08/2018 17:06:18 devpinoyLogger Selected 0 option from WaveDropDown drop down successfully.
+28/08/2018 17:06:19 devpinoyLogger Selected USD option from Currency drop down successfully.
+28/08/2018 17:06:19 devpinoyLogger Clicking on Save button.
+28/08/2018 17:06:22 devpinoyLogger Clicking on CloseButton button.
+28/08/2018 17:06:23 devpinoyLogger Clicking on DoneButton button.
+28/08/2018 17:06:32 devpinoyLogger Clicking on RFQLinkText button.
+28/08/2018 17:06:34 devpinoyLogger Clicking on RFQinAdminServer button.
+28/08/2018 17:06:39 devpinoyLogger Selected Update
+
+    
+    
+     
+ 
+ 
+  
+  
+  
+   
+   
+    option from RFQ Drop down drop down successfully.
+28/08/2018 17:06:41 devpinoyLogger Clicking on ProductExpandImage button.
+28/08/2018 17:06:46 devpinoyLogger Clicking on CostSheetTemplateHyperLink button.
+28/08/2018 17:06:50 devpinoyLogger Clicking on ContentsTableEditButton button.
+28/08/2018 17:06:52 devpinoyLogger Clicking on Product ColrWayTextBox button.
+28/08/2018 17:06:52 devpinoyLogger Clicking on productColorWayHyperLink button.
+28/08/2018 17:07:08 devpinoyLogger Clicking on ColorWayType button.
+28/08/2018 17:07:09 devpinoyLogger Entered E7841 in the ProductNumber text field successfully.
+28/08/2018 17:07:12 devpinoyLogger Clicking on Serach Button button.
+28/08/2018 17:07:13 devpinoyLogger Clicking on ChooseButton button.
+28/08/2018 17:07:15 devpinoyLogger Clicking on wavetable button.
+28/08/2018 17:07:15 devpinoyLogger Selected 0 option from waveDropDown drop down successfully.
+28/08/2018 17:07:16 devpinoyLogger Clicking on UnitRatiotable button.
+28/08/2018 17:07:16 devpinoyLogger Entered 12 in the UnitRatioTextBox text field successfully.
+28/08/2018 17:07:22 devpinoyLogger Clicking on DoneButton button.
+28/08/2018 17:07:25 devpinoyLogger Clicking on ContentsTableEditButton button.
+28/08/2018 17:07:26 devpinoyLogger Clicking on AddRowsButton button.
+28/08/2018 17:07:27 devpinoyLogger Clicking on InsertAfter button.
+28/08/2018 17:07:27 devpinoyLogger Clicking on UnitRatiotable button.
+28/08/2018 17:07:28 devpinoyLogger Clicking on ProductColorWay2 button.
+28/08/2018 17:07:28 devpinoyLogger Clicking on productColorWayHyperLink button.
+28/08/2018 17:07:31 devpinoyLogger Clicking on ColorWayType button.
+28/08/2018 17:07:33 devpinoyLogger Entered E7842 in the ProductNumber text field successfully.
+28/08/2018 17:07:33 devpinoyLogger The Selected colorway is: E7842
+28/08/2018 17:07:35 devpinoyLogger Clicking on Serach Button button.
+28/08/2018 17:07:36 devpinoyLogger Clicking on ChooseButton button.
+28/08/2018 17:07:38 devpinoyLogger Clicking on wavetable button.
+28/08/2018 17:07:38 devpinoyLogger Selected 0 option from waveDropDown drop down successfully.
+28/08/2018 17:07:39 devpinoyLogger Clicking on UnitRatiotable button.
+28/08/2018 17:07:39 devpinoyLogger Entered 12 in the UnitRatioTextBox text field successfully.
+28/08/2018 17:07:44 devpinoyLogger Clicking on DoneButton button.
+28/08/2018 17:07:47 devpinoyLogger RFQHyperLink is clicked.
+28/08/2018 17:07:50 devpinoyLogger Selected Check In option from Action drop down drop down successfully.
+28/08/2018 17:07:52 devpinoyLogger Selected Submit Request to Vendors option from Action Drop down value drop down successfully.
+28/08/2018 17:07:55 devpinoyLogger Clicking on Select button.
+28/08/2018 17:07:56 devpinoyLogger Clicking on Close button.
+28/08/2018 17:08:00 devpinoyLogger Clicking on RFQ HyperLink button.
+28/08/2018 17:08:01 devpinoyLogger Clicking on RFQLinkText button.
+28/08/2018 17:08:03 devpinoyLogger Clicking on RFQinAdminServer button.
+28/08/2018 17:08:15 devpinoyLogger Clicking on RefreshButton button.
+28/08/2018 17:08:17 devpinoyLogger Request status is not updated as 'RequestSent'.Assertion failed.Please check
+28/08/2018 17:08:17 devpinoyLogger java.lang.AssertionError: expected [Request Sent] but found [Draft]
+28/08/2018 17:08:17 devpinoyLogger Assertion error in SubmitRequestStatusCheckjava.lang.AssertionError: expected [Request Sent] but found [Draft]
+28/08/2018 17:08:17 devpinoyLogger Assertion Error In workFlow_PreRequisite_ForTwoRetailItemsjava.lang.AssertionError: expected [Request Sent] but found [Draft]
+28/08/2018 17:08:23 devpinoyLogger Driver is refreshed
+28/08/2018 17:08:26 devpinoyLogger Driver is refreshed
+28/08/2018 17:08:29 devpinoyLogger Driver is refreshed

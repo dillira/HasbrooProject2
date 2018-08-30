@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/htmlunit-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jetty-io-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jetty-util-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/reportng-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/saxon-9.1.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/saxon-dom-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/testng-6.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/websocket-api-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/websocket-client-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/websocket-common-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Hasbro15Feb/Hasbro/FlexPLM/lib/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dilli.r.kumaran.e.l/Music/commons-email-1.5/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dilli.r.kumaran.e.l/Music/commons-email-1.5/commons-email-1.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dilli.r.kumaran.e.l/Music/commons-email-1.5/commons-email-1.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dilli.r.kumaran.e.l/Music/commons-email-1.5/commons-email-1.5-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dilli.r.kumaran.e.l/Music/commons-email-1.5/commons-email-1.5-test-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ci2018" verbose="1">
+<listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+<test name="CI260">
+<classes>
+<class name="com.hasbro.ci2018.CI260">
+</class>
+</classes>
+</test>
+<test name="CI296">
+<classes>
+<class name="com.hasbro.ci2018.CI296">
+</class>
+</classes>
+</test>
+<test name="CI207">
+<classes>
+<class name="com.hasbro.ci2018.CI207">
+</class>
+</classes>
+</test>
+<test name="CI299">
+<classes>
+<class name="com.hasbro.ci2018.CI299">
+</class>
+</classes>
+</test>
+<test name="CI239">
+<classes>
+<class name="com.hasbro.ci2018.CI239">
+</class>
+</classes>
+</test>
+<test name="CI307">
+<classes>
+<class name="com.hasbro.ci2018.CI307">
+</class>
+</classes>
+</test>
+</suite>
+

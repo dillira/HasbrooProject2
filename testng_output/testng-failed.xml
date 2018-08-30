@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite B]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test B1(failed)">
+    <classes>
+      <class name="cartSuite.AddProductTest">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- cartSuite.AddProductTest -->
+      <class name="cartSuite.CheckProductDisplay">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="testcaseB1" invocation-numbers="1"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- cartSuite.CheckProductDisplay -->
+    </classes>
+  </test> <!-- Test B1(failed) -->
+  <test name="Test B2(failed)">
+    <classes>
+      <class name="cartSuite.AddProductTest">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="testcaseB2" invocation-numbers="1"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- cartSuite.AddProductTest -->
+      <class name="cartSuite.CheckProductDisplay">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- cartSuite.CheckProductDisplay -->
+    </classes>
+  </test> <!-- Test B2(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

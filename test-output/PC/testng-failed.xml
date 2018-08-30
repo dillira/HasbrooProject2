@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PC]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="PartMgmtFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.PC.PartMgmtFunctional">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcSourcingConfig"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+        </methods>
+      </class> <!-- com.hasbro.PC.PartMgmtFunctional -->
+    </classes>
+  </test> <!-- PartMgmtFunctional(failed) -->
+  <test name="SMFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.PC.SMFunctional">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="tcStructureManagementFunctional"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.PC.SMFunctional -->
+    </classes>
+  </test> <!-- SMFunctional(failed) -->
+  <test name="SCFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.PC.SCFunctional">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcSCFunctional"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.PC.SCFunctional -->
+    </classes>
+  </test> <!-- SCFunctional(failed) -->
+  <test name="CSFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.PC.CSFunctional">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcSourcingConfig"/>
+          <include name="reporterdataSetResult"/>
+        </methods>
+      </class> <!-- com.hasbro.PC.CSFunctional -->
+    </classes>
+  </test> <!-- CSFunctional(failed) -->
+</suite> <!-- Failed suite [PC] -->

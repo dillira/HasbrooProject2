@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [R2]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="StructureManagementFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.R2.SupplierCollaborationFunctional">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.R2.SupplierCollaborationFunctional -->
+      <class name="com.hasbro.R2.StructureManagementFunctional">
+        <methods>
+          <include name="tcStructureManagementFunctional"/>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.R2.StructureManagementFunctional -->
+    </classes>
+  </test> <!-- StructureManagementFunctional(failed) -->
+  <test name="SupplierCollaborationFunctional(failed)">
+    <classes>
+      <class name="com.hasbro.R2.SupplierCollaborationFunctional">
+        <methods>
+          <include name="tcProductStructureManagementConfiguration"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.R2.SupplierCollaborationFunctional -->
+      <class name="com.hasbro.R2.StructureManagementFunctional">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+        </methods>
+      </class> <!-- com.hasbro.R2.StructureManagementFunctional -->
+    </classes>
+  </test> <!-- SupplierCollaborationFunctional(failed) -->
+</suite> <!-- Failed suite [R2] -->

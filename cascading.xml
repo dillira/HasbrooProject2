@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cascading">
+    <listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<test name="CascadingProduct">
+<classes>
+<class name="com.hasbro.cascading.CascadingProduct">
+</class>
+</classes>
+</test>
+
+<test name="Cascadingplan">
+<classes>
+<class name="com.hasbro.cascading.Cascadingplan">
+</class>
+</classes>
+</test>
+
+
+
+<test name="Cascadingplaceholder">
+<classes>
+<class name="com.hasbro.cascading.Cascadingplaceholder">
+</class>
+</classes>
+</test>
+
+</suite>

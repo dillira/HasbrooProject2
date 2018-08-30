@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CI299"
+           tests="47"
+           failures="0"
+           errors="0"
+           skipped="47"
+           time="0.000">
+  <properties />
+  
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="checkTestcaseSkip" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reportTestcaseResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="reporterdataSetResult" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI299">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

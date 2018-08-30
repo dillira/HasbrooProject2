@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Libraries]">
+  <listeners>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="SeasonOld(failed)">
+    <classes>
+      <class name="com.hasbro.libraries.Product">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.libraries.Product -->
+      <class name="com.hasbro.libraries.SeasonOld">
+        <methods>
+          <include name="testcaseA1"/>
+        </methods>
+      </class> <!-- com.hasbro.libraries.SeasonOld -->
+    </classes>
+  </test> <!-- SeasonOld(failed) -->
+  <test name="CheckProductDisplay(failed)">
+    <classes>
+      <class name="com.hasbro.libraries.Product">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+        </methods>
+      </class> <!-- com.hasbro.libraries.Product -->
+      <class name="com.hasbro.libraries.CheckProductDisplay">
+        <methods>
+          <include name="testcaseA2"/>
+        </methods>
+      </class> <!-- com.hasbro.libraries.CheckProductDisplay -->
+    </classes>
+  </test> <!-- CheckProductDisplay(failed) -->
+  <test name="Product(failed)">
+    <classes>
+      <class name="com.hasbro.libraries.Product">
+        <methods>
+          <include name="checkSuiteSkipTest"/>
+          <include name="testcaseA1"/>
+        </methods>
+      </class> <!-- com.hasbro.libraries.Product -->
+    </classes>
+  </test> <!-- Product(failed) -->
+</suite> <!-- Failed suite [Libraries] -->

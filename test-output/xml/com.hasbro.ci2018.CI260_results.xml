@@ -4,7 +4,7 @@
            failures="0"
            errors="0"
            skipped="8"
-           time="0.000">
+           time="0.004">
   <properties />
   
             <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI260">

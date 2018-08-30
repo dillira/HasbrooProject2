@@ -2,512 +2,512 @@
 <testng-results skipped="56" failed="0" ignored="0" total="56" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ci2018" duration-ms="354" started-at="2018-08-30T09:44:04Z" finished-at="2018-08-30T09:44:05Z">
+  <suite name="ci2018" duration-ms="290" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
     <groups>
     </groups>
-    <test name="CI260" duration-ms="47" started-at="2018-08-30T09:44:04Z" finished-at="2018-08-30T09:44:04Z">
+    <test name="CI260" duration-ms="56" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI260">
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="4" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI260@57fffcd7]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
       </class> <!-- com.hasbro.ci2018.CI260 -->
     </test> <!-- CI260 -->
-    <test name="CI296" duration-ms="24" started-at="2018-08-30T09:44:04Z" finished-at="2018-08-30T09:44:04Z">
+    <test name="CI296" duration-ms="18" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI296">
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI296@490ab905]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
       </class> <!-- com.hasbro.ci2018.CI296 -->
     </test> <!-- CI296 -->
-    <test name="CI207" duration-ms="69" started-at="2018-08-30T09:44:04Z" finished-at="2018-08-30T09:44:05Z">
+    <test name="CI207" duration-ms="39" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI207">
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:04Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:04Z" finished-at="2018-08-30T15:14:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI207@5cb9f472]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
       </class> <!-- com.hasbro.ci2018.CI207 -->
     </test> <!-- CI207 -->
-    <test name="CI299" duration-ms="32" started-at="2018-08-30T09:44:05Z" finished-at="2018-08-30T09:44:05Z">
+    <test name="CI299" duration-ms="1" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI299">
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI299@25bbe1b6]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
       </class> <!-- com.hasbro.ci2018.CI299 -->
     </test> <!-- CI299 -->
-    <test name="CI239" duration-ms="6" started-at="2018-08-30T09:44:05Z" finished-at="2018-08-30T09:44:05Z">
+    <test name="CI239" duration-ms="7" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI239">
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI239@29ca901e]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Refresh -->
       </class> <!-- com.hasbro.ci2018.CI239 -->
     </test> <!-- CI239 -->
-    <test name="CI307" duration-ms="17" started-at="2018-08-30T09:44:05Z" finished-at="2018-08-30T09:44:05Z">
+    <test name="CI307" duration-ms="5" started-at="2018-08-30T09:45:46Z" finished-at="2018-08-30T09:45:46Z">
       <class name="com.hasbro.ci2018.CI307">
-        <test-method status="SKIP" signature="checkSuiteSkipTest()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="checkSuiteSkipTest" is-config="true" duration-ms="11402" started-at="2018-08-30T15:13:53Z" finished-at="2018-08-30T15:14:04Z">
+        <test-method status="SKIP" signature="checkSuiteSkipTest()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="checkSuiteSkipTest" is-config="true" duration-ms="11833" started-at="2018-08-30T15:15:34Z" finished-at="2018-08-30T15:15:46Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping ci2018 option as runmode is set to no]]>
@@ -539,22 +539,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSuiteSkipTest -->
-        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="checkTestcaseSkip()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="checkTestcaseSkip" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestcaseSkip -->
-        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:14:05Z" data-provider="testDataTest" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tcCI -->
-        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Refresh -->
-        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:14:05Z" finished-at="2018-08-30T15:14:05Z">
+        <test-method status="SKIP" signature="reportTestcaseResult()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="reportTestcaseResult" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestcaseResult -->
+        <test-method status="SKIP" signature="tcCI([Ljava.lang.String;)[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="tcCI" duration-ms="0" started-at="2018-08-30T15:15:46Z" data-provider="testDataTest" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcCI -->
+        <test-method status="SKIP" signature="Refresh()[pri:0, instance:com.hasbro.ci2018.CI307@192b07fd]" name="Refresh" is-config="true" duration-ms="0" started-at="2018-08-30T15:15:46Z" finished-at="2018-08-30T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
       </class> <!-- com.hasbro.ci2018.CI307 -->
     </test> <!-- CI307 -->
   </suite> <!-- ci2018 -->

@@ -1,4 +1,4 @@
-@echo "Starting Selenium test"
+@echo "Starting Selenium test1"
 
 set projectLocation=C:\Users\dilli.r.kumaran.e.l\Automation\GitPull\Hasbro15Feb\Hasbro\FlexPLM
 cd %projectLocation%

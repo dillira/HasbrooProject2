@@ -6,7 +6,7 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test thread-count="5" name="CI260(failed)">
+  <test name="CI260(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI260">
         <methods>
@@ -20,7 +20,7 @@
       </class> <!-- com.hasbro.ci2018.CI260 -->
     </classes>
   </test> <!-- CI260(failed) -->
-  <test thread-count="5" name="CI296(failed)">
+  <test name="CI296(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI296">
         <methods>
@@ -34,7 +34,7 @@
       </class> <!-- com.hasbro.ci2018.CI296 -->
     </classes>
   </test> <!-- CI296(failed) -->
-  <test thread-count="5" name="CI207(failed)">
+  <test name="CI207(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI207">
         <methods>
@@ -48,7 +48,7 @@
       </class> <!-- com.hasbro.ci2018.CI207 -->
     </classes>
   </test> <!-- CI207(failed) -->
-  <test thread-count="5" name="CI299(failed)">
+  <test name="CI299(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI299">
         <methods>
@@ -62,7 +62,7 @@
       </class> <!-- com.hasbro.ci2018.CI299 -->
     </classes>
   </test> <!-- CI299(failed) -->
-  <test thread-count="5" name="CI239(failed)">
+  <test name="CI239(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI239">
         <methods>
@@ -76,7 +76,7 @@
       </class> <!-- com.hasbro.ci2018.CI239 -->
     </classes>
   </test> <!-- CI239(failed) -->
-  <test thread-count="5" name="CI307(failed)">
+  <test name="CI307(failed)">
     <classes>
       <class name="com.hasbro.ci2018.CI307">
         <methods>

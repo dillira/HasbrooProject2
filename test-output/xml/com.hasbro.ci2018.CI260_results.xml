@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CI260"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="8"
+           time="0.000">
+  <properties />
+  
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="checkTestcaseSkip" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="reportTestcaseResult" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="Refresh" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+            <testcase name="tcCI" time="0.0" classname="com.hasbro.ci2018.CI260">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

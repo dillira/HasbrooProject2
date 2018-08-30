@@ -1,103 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ci2018]">
   <listeners>
     <listener class-name="listeners.TestsListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test thread-count="5" name="SanitySuite2018(failed)">
+  <test name="CI260(failed)">
     <classes>
-      <class name="com.hasbro.sanity.SanitySuite2018">
+      <class name="com.hasbro.ci2018.CI260">
         <methods>
-          <include name="tcSCFunctional"/>
-          <include name="reporterdataSetResult"/>
+          <include name="reportTestcaseResult"/>
           <include name="checkTestcaseSkip"/>
           <include name="checkSuiteSkipTest"/>
-          <include name="reportTestcaseResult"/>
-        </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite2018 -->
-    </classes>
-  </test> <!-- SanitySuite2018(failed) -->
-  <test thread-count="5" name="SanitySuite1(failed)">
-    <classes>
-      <class name="com.hasbro.sanity.SanitySuite1">
-        <methods>
-          <include name="reportTestcaseResult"/>
-          <include name="checkTestcaseSkip"/>
           <include name="reporterdataSetResult"/>
           <include name="Refresh"/>
-          <include name="tcSCFunctional"/>
-          <include name="checkSuiteSkipTest"/>
+          <include name="tcCI"/>
         </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite1 -->
+      </class> <!-- com.hasbro.ci2018.CI260 -->
     </classes>
-  </test> <!-- SanitySuite1(failed) -->
-  <test thread-count="5" name="SanitySuite3(failed)">
+  </test> <!-- CI260(failed) -->
+  <test name="CI296(failed)">
     <classes>
-      <class name="com.hasbro.sanity.SanitySuite3">
+      <class name="com.hasbro.ci2018.CI296">
         <methods>
-          <include name="checkTestcaseSkip"/>
-          <include name="tcSCFunctional"/>
-          <include name="reportTestcaseResult"/>
           <include name="reporterdataSetResult"/>
+          <include name="Refresh"/>
           <include name="checkSuiteSkipTest"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="tcCI"/>
+          <include name="reportTestcaseResult"/>
         </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite3 -->
+      </class> <!-- com.hasbro.ci2018.CI296 -->
     </classes>
-  </test> <!-- SanitySuite3(failed) -->
-  <test thread-count="5" name="SanitySuite2(failed)">
+  </test> <!-- CI296(failed) -->
+  <test name="CI207(failed)">
     <classes>
-      <class name="com.hasbro.sanity.SanitySuite2">
+      <class name="com.hasbro.ci2018.CI207">
         <methods>
           <include name="Refresh"/>
           <include name="checkTestcaseSkip"/>
-          <include name="reportTestcaseResult"/>
-          <include name="tcSCFunctional"/>
           <include name="checkSuiteSkipTest"/>
+          <include name="reportTestcaseResult"/>
+          <include name="tcCI"/>
           <include name="reporterdataSetResult"/>
         </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite2 -->
+      </class> <!-- com.hasbro.ci2018.CI207 -->
     </classes>
-  </test> <!-- SanitySuite2(failed) -->
-  <test thread-count="5" name="SanitySuite_AssortmentRetail(failed)">
+  </test> <!-- CI207(failed) -->
+  <test name="CI299(failed)">
     <classes>
-      <class name="com.hasbro.sanity.SanitySuite_AssortmentRetail">
+      <class name="com.hasbro.ci2018.CI299">
         <methods>
-          <include name="reportTestcaseResult"/>
-          <include name="checkTestcaseSkip"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCI"/>
           <include name="Refresh"/>
-          <include name="tcSCFunctional"/>
           <include name="checkSuiteSkipTest"/>
-          <include name="reporterdataSetResult"/>
-        </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite_AssortmentRetail -->
-    </classes>
-  </test> <!-- SanitySuite_AssortmentRetail(failed) -->
-  <test thread-count="5" name="SanitySuiteUpdateProductName(failed)">
-    <classes>
-      <class name="com.hasbro.sanity.SanitySuiteUpdateProductName">
-        <methods>
-          <include name="reportTestcaseResult"/>
-          <include name="reporterdataSetResult"/>
-          <include name="checkTestcaseSkip"/>
-          <include name="Refresh"/>
-          <include name="tcSCFunctional"/>
-          <include name="checkSuiteSkipTest"/>
-        </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuiteUpdateProductName -->
-    </classes>
-  </test> <!-- SanitySuiteUpdateProductName(failed) -->
-  <test thread-count="5" name="SanitySuite5_WorkFlow(failed)">
-    <classes>
-      <class name="com.hasbro.sanity.SanitySuite5_WorkFlow">
-        <methods>
           <include name="checkTestcaseSkip"/>
           <include name="reportTestcaseResult"/>
-          <include name="tcSCFunctional" invocation-numbers="0 1 2 3"/>
-          <include name="Refresh"/>
-          <include name="reporterdataSetResult"/>
-          <include name="checkSuiteSkipTest"/>
         </methods>
-      </class> <!-- com.hasbro.sanity.SanitySuite5_WorkFlow -->
+      </class> <!-- com.hasbro.ci2018.CI299 -->
     </classes>
-  </test> <!-- SanitySuite5_WorkFlow(failed) -->
-</suite> <!-- Failed suite [Smoke] -->
+  </test> <!-- CI299(failed) -->
+  <test name="CI239(failed)">
+    <classes>
+      <class name="com.hasbro.ci2018.CI239">
+        <methods>
+          <include name="reportTestcaseResult"/>
+          <include name="reporterdataSetResult"/>
+          <include name="checkTestcaseSkip"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="Refresh"/>
+          <include name="tcCI"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI239 -->
+    </classes>
+  </test> <!-- CI239(failed) -->
+  <test name="CI307(failed)">
+    <classes>
+      <class name="com.hasbro.ci2018.CI307">
+        <methods>
+          <include name="checkTestcaseSkip"/>
+          <include name="reportTestcaseResult"/>
+          <include name="checkSuiteSkipTest"/>
+          <include name="reporterdataSetResult"/>
+          <include name="tcCI"/>
+          <include name="Refresh"/>
+        </methods>
+      </class> <!-- com.hasbro.ci2018.CI307 -->
+    </classes>
+  </test> <!-- CI307(failed) -->
+</suite> <!-- Failed suite [ci2018] -->
